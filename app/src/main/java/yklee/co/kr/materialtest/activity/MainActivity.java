@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity
     private int aaa;
 
     private int ddd;
+    private int eee;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
