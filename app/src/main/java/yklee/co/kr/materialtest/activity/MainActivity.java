@@ -23,6 +23,8 @@ public class MainActivity extends AppCompatActivity
 
     private int aaa;
 
+    private int ddd;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
