@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity
 
     private int bbb;
 
-    private int ccc;
+    private int zzz;
 
     private int ddd;
     private int eee;
