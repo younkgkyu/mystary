@@ -21,6 +21,8 @@ public class MainActivity extends AppCompatActivity
 
     ActionBarDrawerToggle toggle = null;
 
+    private int bbb;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
