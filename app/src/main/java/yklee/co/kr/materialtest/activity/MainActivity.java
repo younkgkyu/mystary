@@ -23,9 +23,6 @@ public class MainActivity extends AppCompatActivity
 
     ActionBarDrawerToggle toggle = null;
 
-    private int ccc;
-    private int ddd;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,19 +49,6 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-
-//        TestData aaa = new TestData();
-//        aaa.setAaa("asdfasdf");
-//        List<TestData> datas = new ArrayList<>();
-//        datas.add(aaa);
-//        TestData bbb = new TestData();
-//        aaa.setAaa("ccccccc");
-//        datas.add(bbb);
-//        TestDataList list = new TestDataList();
-//        list.setTestDatas(datas);
-//        String straaa = new Gson().toJson(list).toString();
-//        Type typeOfSrc = new TypeToken<UserInfoManager>(){}.getType();
-//        TestDataList testData = new Gson().fromJson(straaa, typeOfSrc);
 
         ((TextView)findViewById(R.id.tv_test)).setText(UserInfoManager.getInstance().toString()/*testData.toString()*/);
     }

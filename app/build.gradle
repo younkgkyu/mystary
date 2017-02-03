@@ -7,9 +7,9 @@ android {
     signingConfigs {
         release {
             storeFile file("../signature/key.keystore")
-            storePassword "wpdlxndps"
-            keyAlias "j2n"
-            keyPassword "wpdlxndps"
+            storePassword "yklee123"
+            keyAlias "test"
+            keyPassword "yklee123"
         }
         debug {
             keyAlias 'androiddebugkey'
