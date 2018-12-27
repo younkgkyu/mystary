@@ -2,19 +2,23 @@
 
 ext {
     // 개발 버전 관리
-    compileSdkVersion = 23
-    buildToolsVersion = "23.0.3"
-    minSdkVersion = 14
-    targetSdkVersion = 23
-    supportVersion = "23.4.0"
+    compileSdkVersion = 28
+    buildToolsVersion = "28.0.3"
+    minSdkVersion = 19
+    targetSdkVersion = 28
+    supportVersion = "28.0.0"
 }
 
 buildscript {
     repositories {
         jcenter()
+        maven {
+            url 'https://maven.google.com/'
+            name 'Google'
+        }
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.2.3'
+        classpath 'com.android.tools.build:gradle:3.2.1'
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
@@ -24,6 +28,10 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
+        maven {
+            url 'https://maven.google.com/'
+            name 'Google'
+        }
     }
 }
 
