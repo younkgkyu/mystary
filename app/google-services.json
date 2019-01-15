@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "247070144",
+    "firebase_url": "https://crashlyticstest-ac965.firebaseio.com",
+    "project_id": "crashlyticstest-ac965",
+    "storage_bucket": "crashlyticstest-ac965.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:247070144:android:00856496fc6f20c8",
+        "android_client_info": {
+          "package_name": "yklee.co.kr.materialtest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "247070144-lrubov542kbpgh1d8enrp49h1mbiuhb6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "yklee.co.kr.materialtest",
+            "certificate_hash": "3c5eae13445c843843e8d71d0d2819f6f971369e"
+          }
+        },
+        {
+          "client_id": "247070144-hs9ouuomd39jincbqg7rjbl2oo6c058r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPuUAoUh5PNacEy6YXscZ9oNPERJRUc98"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "247070144-hs9ouuomd39jincbqg7rjbl2oo6c058r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
